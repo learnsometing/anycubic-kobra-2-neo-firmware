@@ -5,7 +5,7 @@ echo:  M149 C ; Units in Celsius
 echo:; Filament settings (Disabled):
 echo:  M200 S0 D1.75
 echo:; Steps per unit:
-echo:  M92 X80.00 Y80.00 Z400.00 E455.00
+echo:  M92 X80.00 Y80.00 Z400.00 E450.50
 echo:; Max feedrates (units/s):
 echo:  M203 X250.00 Y250.00 Z8.00 E80.00
 echo:; Max Acceleration (units/s2):
@@ -17,39 +17,39 @@ echo:  M205 B20000.00 S0.00 T0.00 X10.00 Y10.00 Z2.00 E10.00
 echo:; Home offset:
 echo:  M206 X0.00 Y0.00 Z0.00
 echo:; Auto Bed Leveling:
-echo:  M420 S0 ; Leveling OFF
-echo:  G29 W I0 J0 Z0.27100
-echo:  G29 W I1 J0 Z-0.02200
-echo:  G29 W I2 J0 Z-0.28700
-echo:  G29 W I3 J0 Z-0.59350
-echo:  G29 W I4 J0 Z-1.00850
-echo:  G29 W I0 J1 Z0.35550
-echo:  G29 W I1 J1 Z0.04150
-echo:  G29 W I2 J1 Z-0.26900
-echo:  G29 W I3 J1 Z-0.63800
-echo:  G29 W I4 J1 Z-1.04750
-echo:  G29 W I0 J2 Z0.44200
-echo:  G29 W I1 J2 Z0.08350
-echo:  G29 W I2 J2 Z-0.27400
-echo:  G29 W I3 J2 Z-0.67900
-echo:  G29 W I4 J2 Z-1.15750
-echo:  G29 W I0 J3 Z0.40100
-echo:  G29 W I1 J3 Z0.02100
-echo:  G29 W I2 J3 Z-0.34200
-echo:  G29 W I3 J3 Z-0.75050
-echo:  G29 W I4 J3 Z-1.20900
-echo:  G29 W I0 J4 Z0.35050
-echo:  G29 W I1 J4 Z-0.00900
-echo:  G29 W I2 J4 Z-0.34650
-echo:  G29 W I3 J4 Z-0.74500
-echo:  G29 W I4 J4 Z-1.22050
+echo:  M420 S1 ; Leveling ON
+echo:  G29 W I0 J0 Z0.22500
+echo:  G29 W I1 J0 Z-0.06000
+echo:  G29 W I2 J0 Z-0.35950
+echo:  G29 W I3 J0 Z-0.67000
+echo:  G29 W I4 J0 Z-1.04650
+echo:  G29 W I0 J1 Z0.33700
+echo:  G29 W I1 J1 Z0.01250
+echo:  G29 W I2 J1 Z-0.32450
+echo:  G29 W I3 J1 Z-0.67250
+echo:  G29 W I4 J1 Z-1.07250
+echo:  G29 W I0 J2 Z0.41250
+echo:  G29 W I1 J2 Z0.06000
+echo:  G29 W I2 J2 Z-0.32800
+echo:  G29 W I3 J2 Z-0.72250
+echo:  G29 W I4 J2 Z-1.16750
+echo:  G29 W I0 J3 Z0.37200
+echo:  G29 W I1 J3 Z0.00700
+echo:  G29 W I2 J3 Z-0.38600
+echo:  G29 W I3 J3 Z-0.78000
+echo:  G29 W I4 J3 Z-1.21600
+echo:  G29 W I0 J4 Z0.32450
+echo:  G29 W I1 J4 Z-0.03800
+echo:  G29 W I2 J4 Z-0.40100
+echo:  G29 W I3 J4 Z-0.79100
+echo:  G29 W I4 J4 Z-1.23300
 echo:; Material heatup parameters:
 echo:  M145 S0 H180.00 B70.00 F0
 echo:  M145 S1 H240.00 B110.00 F0
 echo:; Hotend PID:
-echo:  M301 P14.42 I0.88 D59.12
+echo:  M301 P14.76 I0.93 D58.75
 echo:; Bed PID:
-echo:  M304 P97.10 I1.41 D1675.16
+echo:  M304 P62.24 I9.37 D275.50
 echo:; Power-loss recovery:
 echo:  M413 S1 ; ON
 echo:; Z-Probe Offset:
