@@ -18,31 +18,31 @@ echo:; Home offset:
 echo:  M206 X0.00 Y0.00 Z0.00
 echo:; Auto Bed Leveling:
 echo:  M420 S1 ; Leveling ON
-echo:  G29 W I0 J0 Z0.22500
-echo:  G29 W I1 J0 Z-0.06000
-echo:  G29 W I2 J0 Z-0.35950
-echo:  G29 W I3 J0 Z-0.67000
-echo:  G29 W I4 J0 Z-1.04650
-echo:  G29 W I0 J1 Z0.33700
-echo:  G29 W I1 J1 Z0.01250
-echo:  G29 W I2 J1 Z-0.32450
-echo:  G29 W I3 J1 Z-0.67250
-echo:  G29 W I4 J1 Z-1.07250
-echo:  G29 W I0 J2 Z0.41250
-echo:  G29 W I1 J2 Z0.06000
-echo:  G29 W I2 J2 Z-0.32800
-echo:  G29 W I3 J2 Z-0.72250
-echo:  G29 W I4 J2 Z-1.16750
-echo:  G29 W I0 J3 Z0.37200
-echo:  G29 W I1 J3 Z0.00700
-echo:  G29 W I2 J3 Z-0.38600
-echo:  G29 W I3 J3 Z-0.78000
-echo:  G29 W I4 J3 Z-1.21600
-echo:  G29 W I0 J4 Z0.32450
-echo:  G29 W I1 J4 Z-0.03800
-echo:  G29 W I2 J4 Z-0.40100
-echo:  G29 W I3 J4 Z-0.79100
-echo:  G29 W I4 J4 Z-1.23300
+echo:  G29 W I0 J0 Z0.22150
+echo:  G29 W I1 J0 Z-0.08250
+echo:  G29 W I2 J0 Z-0.37500
+echo:  G29 W I3 J0 Z-0.67300
+echo:  G29 W I4 J0 Z-1.04450
+echo:  G29 W I0 J1 Z0.30300
+echo:  G29 W I1 J1 Z-0.02050
+echo:  G29 W I2 J1 Z-0.34800
+echo:  G29 W I3 J1 Z-0.68050
+echo:  G29 W I4 J1 Z-1.07050
+echo:  G29 W I0 J2 Z0.37550
+echo:  G29 W I1 J2 Z0.02000
+echo:  G29 W I2 J2 Z-0.35850
+echo:  G29 W I3 J2 Z-0.74250
+echo:  G29 W I4 J2 Z-1.18200
+echo:  G29 W I0 J3 Z0.32300
+echo:  G29 W I1 J3 Z-0.03850
+echo:  G29 W I2 J3 Z-0.42100
+echo:  G29 W I3 J3 Z-0.80250
+echo:  G29 W I4 J3 Z-1.23450
+echo:  G29 W I0 J4 Z0.27300
+echo:  G29 W I1 J4 Z-0.08350
+echo:  G29 W I2 J4 Z-0.44700
+echo:  G29 W I3 J4 Z-0.82850
+echo:  G29 W I4 J4 Z-1.25750
 echo:; Material heatup parameters:
 echo:  M145 S0 H180.00 B70.00 F0
 echo:  M145 S1 H240.00 B110.00 F0
@@ -53,7 +53,7 @@ echo:  M304 P62.24 I9.37 D275.50
 echo:; Power-loss recovery:
 echo:  M413 S1 ; ON
 echo:; Z-Probe Offset:
-echo:  M851 X24.00 Y13.35 Z-2.02 ; (mm)
+echo:  M851 X24.00 Y13.35 Z-1.98 ; (mm)
 echo:; Input Shaping:
 echo:  M593 X F55.77 D0.15
 echo:  M593 Y F52.70 D0.15
